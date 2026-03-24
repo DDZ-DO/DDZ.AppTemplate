@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DDZ.Lib.PostgreSQL" Version="*" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.*" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.22" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.*">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="NATS.Net" Version="2.5.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\libs\DDZ.Libs\DDZ.Log\DDZ.Log.csproj" />
+    <ProjectReference Include="..\..\..\libs\DDZ.Libs\DDZ.Shared\DDZ.Shared.csproj" />
+    <ProjectReference Include="..\..\..\libs\DDZ.Libs\DDZ.Shared.Authentication\DDZ.Shared.Authentication.csproj" />
+    <ProjectReference Include="..\..\..\libs\DDZ.Libs\DDZ.Shared.Tasks\DDZ.Shared.Tasks.csproj" />
+    <ProjectReference Include="..\..\..\libs\DDZ.Libs\DDZ.Shared.Admin\DDZ.Shared.Admin.csproj" />
+  </ItemGroup>
+
+</Project>

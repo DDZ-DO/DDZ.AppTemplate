@@ -1,0 +1,3 @@
+[submodule "libs/DDZ.Libs"]
+	path = libs/DDZ.Libs
+	url = https://github.com/DDZ-DO/DDZ.Libs.git

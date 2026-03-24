@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5195",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DDZ_SERVICE_ID": "DDZ.__AppName__",
+        "DDZ_JWT_SECRET": "DDZ-Shared-Secret-Key-2026-Min32Chars!!",
+        "DDZ_NATS_URL": "nats://localhost:4222",
+        "DDZ_POSTGRES_HOST": "localhost",
+        "DDZ_POSTGRES_PORT": "5432",
+        "DDZ_POSTGRES_DATABASE": "ddz-__appname__",
+        "DDZ_POSTGRES_USER": "admin",
+        "DDZ_POSTGRES_PASSWORD": "admin"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "DDZ.__AppName__",
+  "layout": "focus",
+  "tasks": [
+    {
+      "name": "Backend",
+      "command": "cd src/backend/DDZ.__AppName__.API && dotnet run",
+      "icon": "▶",
+      "color": "#569cd6"
+    },
+    {
+      "name": "Frontend",
+      "command": "cd src/frontend && npm run dev",
+      "icon": "▶",
+      "color": "#4ec9b0"
+    }
+  ],
+  "webviewUrl": "http://localhost:5315",
+  "abbrev": "__ABBREV__"
+}
