@@ -28,8 +28,8 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@ddz/shared-react": ["../../../DDZ.Libs/DDZ.Shared.React/src/index.ts"],
-      "@ddz/shared-react/*": ["../../../DDZ.Libs/DDZ.Shared.React/src/*"]
+      "@ddz/shared-react": ["../../libs/DDZ.Libs/DDZ.Shared.React/src/index.ts"],
+      "@ddz/shared-react/*": ["../../libs/DDZ.Libs/DDZ.Shared.React/src/*"]
     }
   },
   "include": ["src"]

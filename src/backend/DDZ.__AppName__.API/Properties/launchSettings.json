@@ -9,7 +9,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "DDZ_SERVICE_ID": "DDZ.__AppName__",
-        "DDZ_JWT_SECRET": "DDZ-Shared-Secret-Key-2026-Min32Chars!!",
+        "DDZ_JWT_SECRET": "__REPLACE_ME__dev-secret-min-32-chars-long",
         "DDZ_NATS_URL": "nats://localhost:4222",
         "DDZ_POSTGRES_HOST": "localhost",
         "DDZ_POSTGRES_PORT": "5432",

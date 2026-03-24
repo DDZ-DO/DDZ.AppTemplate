@@ -27,7 +27,7 @@ function useBackendStatus(intervalMs = 30000) {
   return connected
 }
 
-function FeedbackIcon({ className, connected }: { className?: string; connected: boolean | null }) {
+function AppIcon({ className, connected }: { className?: string; connected: boolean | null }) {
   return (
     <span className="relative inline-flex items-center justify-center">
       <MessageSquare className={`text-primary ${className}`} />
@@ -66,7 +66,7 @@ export function AppHeader() {
 
   return (
     <SharedAppHeader
-      appIcon={<FeedbackIcon className="w-6 h-6" connected={connected} />}
+      appIcon={<AppIcon className="w-6 h-6" connected={connected} />}
       appName="__AppName__"
       currentPage={currentPage}
       navItems={navItems}

@@ -44,10 +44,11 @@ mv "src/backend/DDZ.__AppName__.API" "src/backend/DDZ.TicketSystem.API"
 mv "src/backend/DDZ.TicketSystem.API/DDZ.__AppName__.API.csproj" "src/backend/DDZ.TicketSystem.API/DDZ.TicketSystem.API.csproj"
 ```
 
-### 4. Git Submodul einrichten
+### 4. Git Submodul initialisieren
+
+Die `.gitmodules`-Datei ist bereits konfiguriert. Einfach initialisieren:
 
 ```bash
-git submodule add https://github.com/DDZ-DO/DDZ.Libs.git libs/DDZ.Libs
 git submodule update --init --recursive
 ```
 
